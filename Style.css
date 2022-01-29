@@ -15,23 +15,24 @@ div{
     
      border-left: 3px solid black;
     border-bottom: 3px solid black;
-    background-color: rgb(139, 65, 65);
+    /* background-color: rgb(139, 65, 65); */
     
 }
 
+.section1, .section2, .section3{
+    background-color: gray;
+}
 
 .section1{
     
     width: 30.33%;
      margin: 0%;
    border: 3px solid black;
-   background-color: gray;
    float: left;
    margin-left: 2.0%;
 }
 .section2{
     
-    background-color: skyblue;
     width: 30.33%;
    float: left;
    border: 3px solid black;
@@ -39,7 +40,6 @@ div{
 }
 .section3{
     float: right;
-    background-color: pink;
     width: 30.33%;
    margin-right: 2.0%;
    border: 3px solid black;
@@ -49,13 +49,23 @@ p{
     padding-bottom: 5px;
     padding-top: 20px;;
 }
-.content{
+.content1, .content2, .content3{
     font-size: large;
     font-family:'Helvetica Neue', sans-serif bold;
     width: 30%;
     text-align: center;
     padding-top: 3.5px;
 }
+.content1{
+    background-color: rgb(177, 129, 129);
+}
+.content2{
+    background-color: rgb(168, 67, 67);
+}
+.content3{
+    background-color: rgb(185, 185, 108);
+}
+
 
 @media (min-width: 768px) and (max-width: 1180px) {
 
@@ -72,6 +82,9 @@ p{
         margin-top: 2.5%;
         width: 95%;
         margin-right: 3%;
+    }
+    .content3{
+        width: 15%;
     }
 }
 @media (min-width: 200px) and (max-width: 765px) {
