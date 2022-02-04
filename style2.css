@@ -1,0 +1,95 @@
+ #nav{
+    background-color: #808080;
+    width: 100%;
+    border-color: #000000;
+    border-radius: 0%;
+}
+#menu {
+    color: #000000;
+}
+#button , hr{
+    border-color: #000000;
+    
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    
+    background-color: #000000;
+}
+#chicken, #beef, #sushi{
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Short Stack', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+#brand{
+    font-family: 'Short Stack', cursive;
+    font-weight: bold;
+    color: #000000;
+    font-size: 30px ;
+}
+a .navbar-brand{
+    font-family: 'Short Stack', cursive;
+    font-weight: bold;
+    color: #000000;
+}
+#container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cont-back{ 
+    background-color: gray;
+    color: #000000;
+    font-family: 'Short Stack', cursive;
+    width: 93vw;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+ section{
+    margin-bottom: 2vw;
+}
+.bold{
+    font-weight: bold;
+    font-family: 'Short Stack', cursive;
+    
+}
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.text-center .bold{
+    color: #000000;
+
+}
+
+@media (max-width: 1240px) and (min-width: 769px){
+    .cont-back{
+        width: 90vw;
+    }
+
+
+    .brand-name{
+        margin-left: 50%;
+    }
+#container{
+    width: 80px;
+}
+
+}
+
+
+
+@media (max-width: 768px){
+
+.cont-back{
+    width: 100%;
+    margin-left: -10px;
+}
+
+    p{
+        margin-right: 10px;
+    }
+
+}
